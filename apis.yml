@@ -1,8 +1,26 @@
 aid: curtsy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/curtsy.png
 name: Curtsy
-description: Curtsy is a company surfaced as a portfolio company of canaan-partners, index-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Curtsy is a mobile-first resale marketplace for secondhand women's fashion,
+  focused on Gen Z and young-millennial shoppers roughly ages 15 to 30. Through its free
+  iOS and Android apps, users buy and sell trending clothing, shoes, and accessories from
+  brands like Lululemon, Free People, and SKIMS, saving up to 70% off retail. Curtsy holds
+  no inventory of its own — sellers ship directly to buyers using prepaid shipping labels and
+  free Curtsy-branded starter kits — and the company earns a 20% fee on each completed sale.
+  Founded in 2016 as part of Y Combinator's Summer 2016 batch and headquartered in San
+  Francisco, Curtsy has raised venture funding from Canaan Partners and Index Ventures. Curtsy
+  is a consumer app with no public developer API, SDKs, or documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/curtsy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Resale
+- Marketplace
+- Fashion
+- E-commerce
+- Secondhand
+- Consumer
+- Mobile
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://curtsyapp.com
+  url: https://curtsyapp.com/
+- type: Blog
+  url: https://blog.curtsyapp.com/
+- type: Support
+  url: https://curtsyapp.com/faq
+- type: TermsOfService
+  url: https://curtsyapp.com/terms
+- type: PrivacyPolicy
+  url: https://curtsyapp.com/privacy
+- type: SignUp
+  url: https://apps.apple.com/us/app/id1029107786
+- type: DomainSecurity
+  url: security/curtsy-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
